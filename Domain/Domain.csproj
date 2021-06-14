@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Customers\" />
+    <None Remove="Abstract\" />
+    <None Remove="Orders\" />
+    <None Remove="Abstract\Orders\" />
+    <None Remove="Abstract\Customers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Customers\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Orders\" />
+    <Folder Include="Abstract\Orders\" />
+    <Folder Include="Abstract\Customers\" />
+  </ItemGroup>
+</Project>
